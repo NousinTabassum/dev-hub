@@ -1,0 +1,95 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+.bg {
+    background-image: url(image/developer.png);
+    min-height: 90%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.name {
+    font-size: x-large;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    line-height: 1.2em;
+
+}
+
+.name span {
+    font-size: medium;
+}
+
+.darksec {
+    background-color: black;
+    font-size: xx-large;
+    color: white;
+    border: 2px solid black;
+    text-align: center;
+    padding: 40px;
+}
+
+.darksec span {
+    font-size: 70px;
+}
+
+.work {
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.fulldiv {
+    height: 450px;
+    width: 320px;
+    box-shadow: 5px 5px rgb(243, 242, 242);
+    border-radius: 5px;
+}
+
+.text {
+    padding: 2%;
+
+}
+
+.personal {
+    display: flex;
+}
+
+.knowsec {
+    padding: 30px;
+    color: white;
+    width: 50%;
+
+}
+
+.knowsec h1 {
+    font-size: 40px;
+}
+
+.contact {
+    background-color: #515603;
+}
+
+.about {
+    background-color: #722300;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 60px;
+
+}
